@@ -3,6 +3,7 @@ require("dotenv").config({
 })
 
 module.exports = {
+  pathPrefix: "/projectreact",
   siteMetadata: {
     title: `Mohammed-Khalil Ghali Projects`,
     titleTemplate: `%s | Mohammed-Khalil Ghali Projects`,
