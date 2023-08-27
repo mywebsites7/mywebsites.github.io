@@ -42,9 +42,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "homepage": "https://mywebsites7.github.io/projectreact",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+   
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
