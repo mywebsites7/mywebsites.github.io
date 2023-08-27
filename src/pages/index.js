@@ -16,17 +16,17 @@ const IndexPage = () => {
     if (command === "cd") {
       const targetPage = args[1].toLowerCase();
       if (targetPage === "about" /* Add more valid page names */) {
-        window.location.href ='/Portfolios /Khalil´s Portfolio';}
+        window.location.href ='/about';}
       else if(targetPage === "contact" /* Add more valid page names */) {
         window.location.href ='http://linkedin.com/in/mohammed-khalil-ghali-11305119b/';}
       else if(targetPage === "pdfchat" /* Add more valid page names */) {
-          window.location.href ='/Portfolios /Khalil´s Portfolio';}
+          window.location.href ='/pdfchat';}
       else if(targetPage === "websitechat" /* Add more valid page names */) {
-            window.location.href ='/Portfolios /Khalil´s Portfolio';}
+            window.location.href ='/websitechat';}
       else if(targetPage === "youtubechat" /* Add more valid page names */) {
-              window.location.href ='/Portfolios /Khalil´s Portfolio';}
+              window.location.href ='/youtubechat';}
       else if(targetPage === "csvchat" /* Add more valid page names */) {
-                window.location.href ='/Portfolios /Khalil´s Portfolio';}
+                window.location.href ='/csvchat';}
       else if(targetPage === "portfolio" /* Add more valid page names */) {
                   window.location.href ='/Portfolios /Khalil´s Portfolio';}
        else {

@@ -5,9 +5,9 @@ title: "MKG-PDF-Chat Assistant"
 added: "2023-07-14"
 listName: "🗒️ /Chat with PDFs"
 video: "false"
-popupImageSrc: "https://raw.githubusercontent.com/Kielx/anygrabber/master/assets_readme/screenshot1.png"
+popupImageSrc: ""
 popupImageAlt: "App screenshot"
-popupGithubLink: "https://github.com/Kielx/AnyGrabber"
+popupGithubLink: https://github.com/khalil-ghali/chat-with-pdf
 
 techIcons: [
         "python",

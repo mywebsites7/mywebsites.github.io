@@ -3531,7 +3531,7 @@ var plugins = [{
     "cache_busting_mode": "query",
     "crossOrigin": "anonymous",
     "include_favicon": true,
-    "cacheDigest": "41e658871be8077e97beb4007888f581"
+    "cacheDigest": "57e5ff82fbc9b9347b12b7e79c996f11"
   }
 }, {
   name: 'gatsby-plugin-google-gtag',

@@ -53,7 +53,7 @@ techIcons: [
     
 ---
 [Linkedin | ](https://www.linkedin.com/in/mohammed-khalil-ghali-11305119b/)
-[Portfolio | ](https://www.linkedin.com/in/mohammed-khalil-ghali-11305119b/)
+[Portfolio | ](https://www.mohammedkhalilghali.com)
 [Resume](https://drive.google.com/file/d/1J4LfWlDJ9B-dyWYkU2kLKK5Ym8ths8H2/view?usp=sharing)
 
 # MOHAMMED-KHALIL GHALI

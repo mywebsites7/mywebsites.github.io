@@ -111,7 +111,7 @@ export default function PopupTerminalWindow({
                 rel="noopener noreferrer"
               >
                 <FontAwesomeIcon
-                  icon={faLink}
+                  icon={faGithub}
                   className="popupTerminalWindowLinkIcon"
                   size="2x"
                 />

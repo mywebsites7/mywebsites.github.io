@@ -5,13 +5,13 @@ title: "Portfolio"
 added: "07-15-2023"
 listName: "🌐 /My Portfolio"
 video: "false"
-popupImageSrc: "https://raw.githubusercontent.com/Kielx/arduino-knight-rider/master/assets/Animation.gif"
+popupImageSrc: ""
 popupImageAlt: "App screenshot"
-popupLiveLink: "https://www.tinkercad.com/things/h6UGRvyt57M?sharecode=AdzrjSHtaL6RfG9oV-UQ7uABUGXwvTwtX3bNIyHkgfQ"
-popupGithubLink: "https://github.com/Kielx/arduino-knight-rider"
+popupLiveLink: "https://www.mohammedkhalilghali.com"
 techIcons: [
-        "arduino",
-        "autodesk",
+        "javascript",
+        "html5",
+        "css3",
         
       ]
 ---

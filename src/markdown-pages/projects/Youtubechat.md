@@ -5,10 +5,9 @@ added: "2023-08-07"
 title: "MKG-Youtube-Chat Assistant"
 video: "false"
 listName: "🎥 /Chat With Youtube Vids"
-popupImageSrc: "country-quiz.webp"
+popupImageSrc: ""
 popupImageAlt: "Country Quiz screenshot"
-popupLiveLink: "https://country-quiz.pantak.net/"
-popupGithubLink: "https://github.com/Kielx/country-quiz"
+popupGithubLink: "https://github.com/khalil-ghali/chat-with-youtube"
 techIcons: [
         "python",
         "openai",
