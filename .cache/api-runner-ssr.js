@@ -7,10 +7,6 @@ var plugins = [{
       plugin: require('/Users/mac/projectreact/node_modules/gatsby-plugin-image/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      name: 'gatsby-plugin-manifest',
-      plugin: require('/Users/mac/projectreact/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Mohammed-Khalil Ghali Projects","short_name":"KMohammed-Khalil Ghali Projects","start_url":"/","background_color":"#1b2d3a","theme_color":"#1b2d3a","display":"minimal-ui","icon":"src/images/mojePhotoSquare.jpg","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"57e5ff82fbc9b9347b12b7e79c996f11"},
-    },{
       name: 'gatsby-plugin-google-gtag',
       plugin: require('/Users/mac/projectreact/node_modules/gatsby-plugin-google-gtag/gatsby-ssr'),
       options: {"plugins":[],"trackingIds":[null]},

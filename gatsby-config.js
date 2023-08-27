@@ -9,7 +9,7 @@ module.exports = {
     description: `Terminal -command-line themed portfolio featuring my generative ai projects`,
     author: `@Mohammed-Khalil`,
     url: "",
-    image: "/mojePhoto.jpg", // Path to your image you placed in the 'static' folder
+    image: "/favicon-32x32.png", // Path to your image you placed in the 'static' folder
     twitterUsername: "",
   },
   plugins: [
@@ -24,18 +24,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Mohammed-Khalil Ghali Projects`,
-        short_name: `KMohammed-Khalil Ghali Projects`,
-        start_url: `/`,
-        background_color: `#1b2d3a`,
-        theme_color: `#1b2d3a`,
-        display: `minimal-ui`,
-        icon: `src/images/mojePhotoSquare.jpg`, // This path is relative to the root of the site.
-      },
-    },
+    
     {
       resolve: `gatsby-source-filesystem`,
       options: {
