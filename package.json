@@ -1,6 +1,6 @@
 {
   "name": "khalilprojects",
-  "private": true,
+  "private": false,
   "description": "My projects portfolio",
   "version": "0.1.0",
   "author": "MKG",
@@ -42,6 +42,9 @@
   ],
   "license": "MIT",
   "scripts": {
+    "homepage": "https://mywebsites7.github.io/projectreact",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
