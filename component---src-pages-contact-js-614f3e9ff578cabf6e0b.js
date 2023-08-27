@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkkhalilprojects=self.webpackChunkkhalilprojects||[]).push([[501],{262:function(e,t,l){l.r(t);var a=l(7294),c=l(2413),n=l(6179),r=l(5918);t.default=()=>a.createElement(c.Z,null,a.createElement(n.Z,{title:"Contactt"}),a.createElement(r.Z,null))}}]);
+//# sourceMappingURL=component---src-pages-contact-js-614f3e9ff578cabf6e0b.js.map
