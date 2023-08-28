@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-5e63950db92f998e1884.js"
+    "url": "webpack-runtime-da5ba072bf912e1fceb5.js"
   },
   {
     "url": "styles.beb41275c94ec9965963.css"
@@ -36,22 +36,14 @@ self.__precacheManifest = [
     "url": "framework-b241493ded25ef67af89.js"
   },
   {
-    "url": "app-c210b33384da9f65b2a8.js"
+    "url": "app-9cf45c79b5f446d1f2c9.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "eb428b395c9ffcc91e8d854bf481fa09"
+    "revision": "41d3fd9042080978cffb1e25278a7b6f"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-bd20d7a301e8259e9405.js"
-  },
-  {
-    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
-    "revision": "f2c002077289a7e1ac538802bc7f5314"
-  },
-  {
-    "url": "page-data/app-data.json",
-    "revision": "172b546df86a7701e64286396f8839af"
   },
   {
     "url": "polyfill-d0bc66252d7451253161.js"
@@ -141,12 +133,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/projectreact`), ``)
+  pathname = pathname.replace(new RegExp(`^`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/projectreact/app-c210b33384da9f65b2a8.js`))) {
+  if (!resources || !(await caches.match(`/app-9cf45c79b5f446d1f2c9.js`))) {
     return await fetch(event.request)
   }
 
@@ -159,7 +151,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/projectreact/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
